@@ -8,7 +8,7 @@
             </div>
             <div class="timer__stage">
                 <div class="timer__title">Stage</div>
-                <div class="timer__value">10</div>
+		<div class="timer__value">0</div>
             </div>
         </div>
         <button class="timer__button" type="button" id="start-stop" {{if and (not .Current.Iteration) (not .Current.CanStart)}} disabled{{end}}>{{if .Current.Iteration}}Stop{{else}}Start{{end}}</button>
